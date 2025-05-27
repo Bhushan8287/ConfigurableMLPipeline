@@ -1,0 +1,39 @@
+{
+    "splitting": {
+        "test_size": 0.2,
+        "random_state": 3
+    },
+                 
+    "paths": {
+        "outputs_directory": "C:/Users/BW/Desktop/ETL project/ML_project/outputs",
+        "dataset_path": "C:/Users/BW/Desktop/ETL project/ML_project/data/coffee_shop_revenue.csv"  
+    },
+
+    "K_fold": {
+        "n_splits": 5,
+        "random_state_for_cv": 3
+    },
+
+    "feature_selection": {
+        "selected_feature_selection_method": "feature_importance",
+        "corr_threshold" : 0.20,
+        "no_of_features_to_select_using_feature_imp": 3,
+        "features_to_select_k_using_mutual_info": 3,
+        "feature_selection_option_available": ["corr", "feature_importance", "mutual_info"]
+    },
+
+    "scaling_method": {
+        "scaler": "standard",
+        "scaling_options_available": ["standard", "minmax"]
+    },
+
+    "no_of_models_to_select_for_hyperparameter_tuning":{
+        "no_of_models": 2
+    },
+
+    "gridsearch_params": {
+        "optimize_for": "neg_root_mean_squared_error",
+        "n_jobs": -1,
+        "cv": 5
+    }
+}

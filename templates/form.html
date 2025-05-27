@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Marks</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #d0cd13;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #252525;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            text-align: left;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+        }
+        button {
+            padding: 12px 25px;
+            background-color: #0069ca;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #822626 ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Revenue
+    </header>
+    <main>
+        <form action="/form" method="post">
+            <label for="number of customers per day">Number of Customers Per Day:</label>
+            <input type="number" id="number of customers per day" name="number of customers per day" required>
+
+            <label for="average order value">Average Order Value:</label>
+            <input type="number" id="average order value" name="average order value" required>
+
+            <label for="marketing spend per day">Marketing Spend Per Day:</label>
+            <input type="number" id="marketing spend per day" name="marketing spend per day" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

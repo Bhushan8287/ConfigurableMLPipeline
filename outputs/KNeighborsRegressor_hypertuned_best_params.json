@@ -1,0 +1,1 @@
+{"metric": "euclidean", "n_neighbors": 10, "p": 1, "weights": "distance"}
