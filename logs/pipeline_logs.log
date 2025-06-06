@@ -1,159 +1,160 @@
-2025-05-27 17:58:04-Loading_config_file_component-INFO-========== Starting Config File Component ==========
-2025-05-27 17:58:04-Loading_config_file_component-INFO-Trying to load the config file to access the data inside it
-2025-05-27 17:58:04-Loading_config_file_component-INFO-Config file has been succesfully loaded
-2025-05-27 17:58:04-Loading_config_file_component-INFO-========== Finished Config File Component ==========
+2025-06-06 07:36:30-Loading_config_file_component-INFO-========== Starting Config File Component ==========
+2025-06-06 07:36:30-Loading_config_file_component-INFO-Trying to load the config file to access the data inside it
+2025-06-06 07:36:30-Loading_config_file_component-INFO-Config file has been succesfully loaded
+2025-06-06 07:36:30-Loading_config_file_component-INFO-========== Finished Config File Component ==========
 
-2025-05-27 17:58:04-Pipeline_component-INFO-Pipeline execution has started
-2025-05-27 17:58:05-Dataset_loading_component-INFO-========== Starting Loading Data Component ==========
-2025-05-27 17:58:05-Dataset_loading_component-INFO-The dataset is being loaded
-2025-05-27 17:58:05-Dataset_loading_component-INFO-Dataset has been loaded and is now sent for splitting and pre-processing
-2025-05-27 17:58:05-Dataset_loading_component-INFO-The dataset shape is: (2000, 7)
-2025-05-27 17:58:05-Dataset_loading_component-INFO-========== Finished Loading Data Component ==========
+2025-06-06 07:36:34-Pipeline_component-INFO-Pipeline execution has started
+2025-06-06 07:36:34-Dataset_loading_component-INFO-========== Starting Loading Data Component ==========
+2025-06-06 07:36:34-Dataset_loading_component-INFO-The dataset is being loaded
+2025-06-06 07:36:34-Dataset_loading_component-INFO-Dataset has been loaded and is now sent for splitting and pre-processing
+2025-06-06 07:36:34-Dataset_loading_component-INFO-The dataset shape is: (2000, 7)
+2025-06-06 07:36:34-Dataset_loading_component-INFO-========== Finished Loading Data Component ==========
 
-2025-05-27 17:58:05-Data_splitting_component-INFO-========== Starting Splitting Data Component ==========
-2025-05-27 17:58:05-Data_splitting_component-INFO-The dataset is now being split into "X", "y" and "train" and "test" splits
-2025-05-27 17:58:05-Data_splitting_component-INFO-Split shapes X_train: (1600, 6), X_test: (400, 6), y_train: (1600,), y_test: (400,)
-2025-05-27 17:58:05-Data_splitting_component-INFO-The dataset has been successfully split into training and testing sets and are returned
-2025-05-27 17:58:05-Data_splitting_component-INFO-========== Finished Splitting Data Component ==========
+2025-06-06 07:36:34-Data_splitting_component-INFO-========== Starting Splitting Data Component ==========
+2025-06-06 07:36:34-Data_splitting_component-INFO-The dataset is now being split into "X", "y" and "train" and "test" splits
+2025-06-06 07:36:34-Data_splitting_component-INFO-Split shapes X_train: (1600, 6), X_test: (400, 6), y_train: (1600,), y_test: (400,)
+2025-06-06 07:36:34-Data_splitting_component-INFO-Splits saved successfully to CSV files
+2025-06-06 07:36:34-Data_splitting_component-INFO-The dataset has been successfully split into training and testing sets and are returned
+2025-06-06 07:36:34-Data_splitting_component-INFO-========== Finished Splitting Data Component ==========
 
-2025-05-27 17:58:05-Cross_validation_component-INFO-========== Starting Cross Validation Component ==========
-2025-05-27 17:58:05-Cross_validation_component-INFO-Cross validaton has started
-2025-05-27 17:58:05-Cross_validation_component-INFO-These are the cross validation scores for the model LinearRegression
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average R2 score: 0.8881
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average RMSE score: 323.7602
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average MAE score: 253.4477
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average MSE score: 104970.0380
-2025-05-27 17:58:05-Cross_validation_component-INFO-These are the cross validation scores for the model Ridge
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average R2 score: 0.8881
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average RMSE score: 323.7603
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average MAE score: 253.4484
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average MSE score: 104970.0172
-2025-05-27 17:58:05-Cross_validation_component-INFO-These are the cross validation scores for the model Lasso
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average R2 score: 0.8881
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average RMSE score: 323.7627
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average MAE score: 253.4547
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average MSE score: 104971.5474
-2025-05-27 17:58:05-Cross_validation_component-INFO-These are the cross validation scores for the model ElasticNet
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average R2 score: 0.8856
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average RMSE score: 327.7163
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average MAE score: 256.3836
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average MSE score: 107562.4049
-2025-05-27 17:58:05-Cross_validation_component-INFO-These are the cross validation scores for the model DecisionTreeRegressor
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average R2 score: 0.8871
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average RMSE score: 327.6137
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average MAE score: 258.1845
-2025-05-27 17:58:05-Cross_validation_component-INFO-This is average MSE score: 106263.1330
-2025-05-27 17:58:13-Cross_validation_component-INFO-These are the cross validation scores for the model RandomForestRegressor
-2025-05-27 17:58:13-Cross_validation_component-INFO-This is average R2 score: 0.9434
-2025-05-27 17:58:13-Cross_validation_component-INFO-This is average RMSE score: 230.8247
-2025-05-27 17:58:13-Cross_validation_component-INFO-This is average MAE score: 184.3947
-2025-05-27 17:58:13-Cross_validation_component-INFO-This is average MSE score: 52853.0018
-2025-05-27 17:58:15-Cross_validation_component-INFO-These are the cross validation scores for the model SVR
-2025-05-27 17:58:15-Cross_validation_component-INFO-This is average R2 score: 0.0428
-2025-05-27 17:58:15-Cross_validation_component-INFO-This is average RMSE score: 949.1175
-2025-05-27 17:58:15-Cross_validation_component-INFO-This is average MAE score: 760.1780
-2025-05-27 17:58:15-Cross_validation_component-INFO-This is average MSE score: 903304.7706
-2025-05-27 17:58:16-Cross_validation_component-INFO-These are the cross validation scores for the model XGBoostRegressor
-2025-05-27 17:58:16-Cross_validation_component-INFO-This is average R2 score: 0.9385
-2025-05-27 17:58:16-Cross_validation_component-INFO-This is average RMSE score: 239.8905
-2025-05-27 17:58:16-Cross_validation_component-INFO-This is average MAE score: 192.0552
-2025-05-27 17:58:16-Cross_validation_component-INFO-This is average MSE score: 57592.4762
-2025-05-27 17:58:16-Cross_validation_component-INFO-These are the cross validation scores for the model KNN
-2025-05-27 17:58:16-Cross_validation_component-INFO-This is average R2 score: 0.5252
-2025-05-27 17:58:16-Cross_validation_component-INFO-This is average RMSE score: 667.4059
-2025-05-27 17:58:16-Cross_validation_component-INFO-This is average MAE score: 524.8751
-2025-05-27 17:58:16-Cross_validation_component-INFO-This is average MSE score: 447906.6475
-2025-05-27 17:58:16-Cross_validation_component-INFO-Cross validation of all the models has completed
-2025-05-27 17:58:16-Cross_validation_component-INFO-========== Finished Cross Validation Component ==========
+2025-06-06 07:36:34-Cross_validation_component-INFO-========== Starting Cross Validation Component ==========
+2025-06-06 07:36:34-Cross_validation_component-INFO-Cross validaton has started
+2025-06-06 07:36:34-Cross_validation_component-INFO-These are the cross validation scores for the model LinearRegression
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average R2 score: 0.8881
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average RMSE score: 323.7602
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average MAE score: 253.4477
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average MSE score: 104970.0380
+2025-06-06 07:36:34-Cross_validation_component-INFO-These are the cross validation scores for the model Ridge
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average R2 score: 0.8881
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average RMSE score: 323.7603
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average MAE score: 253.4484
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average MSE score: 104970.0172
+2025-06-06 07:36:34-Cross_validation_component-INFO-These are the cross validation scores for the model Lasso
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average R2 score: 0.8881
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average RMSE score: 323.7627
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average MAE score: 253.4547
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average MSE score: 104971.5474
+2025-06-06 07:36:34-Cross_validation_component-INFO-These are the cross validation scores for the model ElasticNet
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average R2 score: 0.8856
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average RMSE score: 327.7163
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average MAE score: 256.3836
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average MSE score: 107562.4049
+2025-06-06 07:36:34-Cross_validation_component-INFO-These are the cross validation scores for the model DecisionTreeRegressor
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average R2 score: 0.8856
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average RMSE score: 326.6746
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average MAE score: 264.1560
+2025-06-06 07:36:34-Cross_validation_component-INFO-This is average MSE score: 105529.8862
+2025-06-06 07:36:42-Cross_validation_component-INFO-These are the cross validation scores for the model RandomForestRegressor
+2025-06-06 07:36:42-Cross_validation_component-INFO-This is average R2 score: 0.9436
+2025-06-06 07:36:42-Cross_validation_component-INFO-This is average RMSE score: 228.6457
+2025-06-06 07:36:42-Cross_validation_component-INFO-This is average MAE score: 184.8525
+2025-06-06 07:36:42-Cross_validation_component-INFO-This is average MSE score: 52974.8028
+2025-06-06 07:36:44-Cross_validation_component-INFO-These are the cross validation scores for the model SVR
+2025-06-06 07:36:44-Cross_validation_component-INFO-This is average R2 score: 0.0428
+2025-06-06 07:36:44-Cross_validation_component-INFO-This is average RMSE score: 949.1175
+2025-06-06 07:36:44-Cross_validation_component-INFO-This is average MAE score: 760.1780
+2025-06-06 07:36:44-Cross_validation_component-INFO-This is average MSE score: 903304.7706
+2025-06-06 07:36:45-Cross_validation_component-INFO-These are the cross validation scores for the model XGBoostRegressor
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average R2 score: 0.9385
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average RMSE score: 239.8905
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average MAE score: 192.0552
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average MSE score: 57592.4762
+2025-06-06 07:36:45-Cross_validation_component-INFO-These are the cross validation scores for the model KNN
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average R2 score: 0.5252
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average RMSE score: 667.4059
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average MAE score: 524.8751
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average MSE score: 447906.6475
+2025-06-06 07:36:45-Cross_validation_component-INFO-Cross validation of all the models has completed
+2025-06-06 07:36:45-Cross_validation_component-INFO-========== Finished Cross Validation Component ==========
 
-2025-05-27 17:58:16-Feature_selection_component-INFO-========== Starting Feature Selection Component ==========
-2025-05-27 17:58:16-Feature_selection_component-INFO-Feature selection process has started using "Feature importance with random forest" method
-2025-05-27 17:58:17-Feature_selection_component-INFO-Selected features: ['Number_of_Customers_Per_Day', 'Average_Order_Value', 'Marketing_Spend_Per_Day'] with their feature importances values: [0.5742757278539126, 0.35848531258765465, 0.049306473943799826]
-2025-05-27 17:58:17-Feature_selection_component-INFO-Feature selection process has completed using "Feature importance with random forest" method and train and test splits are returned
-2025-05-27 17:58:17-Feature_selection_component-INFO-========== Finished Feature Selection Component ==========
+2025-06-06 07:36:45-Feature_selection_component-INFO-========== Starting Feature Selection Component ==========
+2025-06-06 07:36:45-Feature_selection_component-INFO-Feature selection process has started using "Feature importance with random forest" method
+2025-06-06 07:36:45-Feature_selection_component-INFO-Selected features: ['Number_of_Customers_Per_Day', 'Average_Order_Value', 'Marketing_Spend_Per_Day'] with their feature importances values: [0.5742757278539126, 0.35848531258765465, 0.049306473943799826]
+2025-06-06 07:36:45-Feature_selection_component-INFO-Feature selection process has completed using "Feature importance with random forest" method and train and test splits are returned
+2025-06-06 07:36:45-Feature_selection_component-INFO-========== Finished Feature Selection Component ==========
 
-2025-05-27 17:58:17-Cross_validation_component-INFO-========== Starting Cross Validation Component ==========
-2025-05-27 17:58:17-Cross_validation_component-INFO-Cross validaton has started
-2025-05-27 17:58:17-Cross_validation_component-INFO-These are the cross validation scores for the model LinearRegression
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average R2 score: 0.8883
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average RMSE score: 323.4910
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average MAE score: 253.3926
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average MSE score: 104803.2539
-2025-05-27 17:58:17-Cross_validation_component-INFO-These are the cross validation scores for the model Ridge
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average R2 score: 0.8883
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average RMSE score: 323.4913
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average MAE score: 253.3943
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average MSE score: 104803.3596
-2025-05-27 17:58:17-Cross_validation_component-INFO-These are the cross validation scores for the model Lasso
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average R2 score: 0.8883
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average RMSE score: 323.4937
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average MAE score: 253.4024
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average MSE score: 104804.6014
-2025-05-27 17:58:17-Cross_validation_component-INFO-These are the cross validation scores for the model ElasticNet
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average R2 score: 0.8857
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average RMSE score: 327.5716
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average MAE score: 256.6711
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average MSE score: 107459.0373
-2025-05-27 17:58:17-Cross_validation_component-INFO-These are the cross validation scores for the model DecisionTreeRegressor
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average R2 score: 0.8954
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average RMSE score: 312.2470
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average MAE score: 250.2434
-2025-05-27 17:58:17-Cross_validation_component-INFO-This is average MSE score: 98194.0723
-2025-05-27 17:58:23-Cross_validation_component-INFO-These are the cross validation scores for the model RandomForestRegressor
-2025-05-27 17:58:23-Cross_validation_component-INFO-This is average R2 score: 0.9434
-2025-05-27 17:58:23-Cross_validation_component-INFO-This is average RMSE score: 229.8532
-2025-05-27 17:58:23-Cross_validation_component-INFO-This is average MAE score: 183.8960
-2025-05-27 17:58:23-Cross_validation_component-INFO-This is average MSE score: 53055.5385
-2025-05-27 17:58:24-Cross_validation_component-INFO-These are the cross validation scores for the model SVR
-2025-05-27 17:58:24-Cross_validation_component-INFO-This is average R2 score: 0.1469
-2025-05-27 17:58:24-Cross_validation_component-INFO-This is average RMSE score: 896.1643
-2025-05-27 17:58:24-Cross_validation_component-INFO-This is average MAE score: 712.2388
-2025-05-27 17:58:24-Cross_validation_component-INFO-This is average MSE score: 805697.1288
-2025-05-27 17:58:26-Cross_validation_component-INFO-These are the cross validation scores for the model XGBoostRegressor
-2025-05-27 17:58:26-Cross_validation_component-INFO-This is average R2 score: 0.9375
-2025-05-27 17:58:26-Cross_validation_component-INFO-This is average RMSE score: 241.7925
-2025-05-27 17:58:26-Cross_validation_component-INFO-This is average MAE score: 193.5345
-2025-05-27 17:58:26-Cross_validation_component-INFO-This is average MSE score: 58499.5280
-2025-05-27 17:58:26-Cross_validation_component-INFO-These are the cross validation scores for the model KNN
-2025-05-27 17:58:26-Cross_validation_component-INFO-This is average R2 score: 0.5338
-2025-05-27 17:58:26-Cross_validation_component-INFO-This is average RMSE score: 660.9768
-2025-05-27 17:58:26-Cross_validation_component-INFO-This is average MAE score: 517.3485
-2025-05-27 17:58:26-Cross_validation_component-INFO-This is average MSE score: 439404.2270
-2025-05-27 17:58:26-Cross_validation_component-INFO-Cross validation of all the models has completed
-2025-05-27 17:58:26-Cross_validation_component-INFO-========== Finished Cross Validation Component ==========
+2025-06-06 07:36:45-Cross_validation_component-INFO-========== Starting Cross Validation Component ==========
+2025-06-06 07:36:45-Cross_validation_component-INFO-Cross validaton has started
+2025-06-06 07:36:45-Cross_validation_component-INFO-These are the cross validation scores for the model LinearRegression
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average R2 score: 0.8883
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average RMSE score: 323.4910
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average MAE score: 253.3926
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average MSE score: 104803.2539
+2025-06-06 07:36:45-Cross_validation_component-INFO-These are the cross validation scores for the model Ridge
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average R2 score: 0.8883
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average RMSE score: 323.4913
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average MAE score: 253.3943
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average MSE score: 104803.3596
+2025-06-06 07:36:45-Cross_validation_component-INFO-These are the cross validation scores for the model Lasso
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average R2 score: 0.8883
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average RMSE score: 323.4937
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average MAE score: 253.4024
+2025-06-06 07:36:45-Cross_validation_component-INFO-This is average MSE score: 104804.6014
+2025-06-06 07:36:46-Cross_validation_component-INFO-These are the cross validation scores for the model ElasticNet
+2025-06-06 07:36:46-Cross_validation_component-INFO-This is average R2 score: 0.8857
+2025-06-06 07:36:46-Cross_validation_component-INFO-This is average RMSE score: 327.5716
+2025-06-06 07:36:46-Cross_validation_component-INFO-This is average MAE score: 256.6711
+2025-06-06 07:36:46-Cross_validation_component-INFO-This is average MSE score: 107459.0373
+2025-06-06 07:36:46-Cross_validation_component-INFO-These are the cross validation scores for the model DecisionTreeRegressor
+2025-06-06 07:36:46-Cross_validation_component-INFO-This is average R2 score: 0.8966
+2025-06-06 07:36:46-Cross_validation_component-INFO-This is average RMSE score: 314.3325
+2025-06-06 07:36:46-Cross_validation_component-INFO-This is average MAE score: 253.0799
+2025-06-06 07:36:46-Cross_validation_component-INFO-This is average MSE score: 96946.4981
+2025-06-06 07:36:51-Cross_validation_component-INFO-These are the cross validation scores for the model RandomForestRegressor
+2025-06-06 07:36:51-Cross_validation_component-INFO-This is average R2 score: 0.9436
+2025-06-06 07:36:51-Cross_validation_component-INFO-This is average RMSE score: 229.1193
+2025-06-06 07:36:51-Cross_validation_component-INFO-This is average MAE score: 183.6165
+2025-06-06 07:36:51-Cross_validation_component-INFO-This is average MSE score: 52613.4078
+2025-06-06 07:36:53-Cross_validation_component-INFO-These are the cross validation scores for the model SVR
+2025-06-06 07:36:53-Cross_validation_component-INFO-This is average R2 score: 0.1469
+2025-06-06 07:36:53-Cross_validation_component-INFO-This is average RMSE score: 896.1643
+2025-06-06 07:36:53-Cross_validation_component-INFO-This is average MAE score: 712.2388
+2025-06-06 07:36:53-Cross_validation_component-INFO-This is average MSE score: 805697.1288
+2025-06-06 07:36:54-Cross_validation_component-INFO-These are the cross validation scores for the model XGBoostRegressor
+2025-06-06 07:36:54-Cross_validation_component-INFO-This is average R2 score: 0.9375
+2025-06-06 07:36:54-Cross_validation_component-INFO-This is average RMSE score: 241.7925
+2025-06-06 07:36:54-Cross_validation_component-INFO-This is average MAE score: 193.5345
+2025-06-06 07:36:54-Cross_validation_component-INFO-This is average MSE score: 58499.5280
+2025-06-06 07:36:54-Cross_validation_component-INFO-These are the cross validation scores for the model KNN
+2025-06-06 07:36:54-Cross_validation_component-INFO-This is average R2 score: 0.5338
+2025-06-06 07:36:54-Cross_validation_component-INFO-This is average RMSE score: 660.9768
+2025-06-06 07:36:54-Cross_validation_component-INFO-This is average MAE score: 517.3485
+2025-06-06 07:36:54-Cross_validation_component-INFO-This is average MSE score: 439404.2270
+2025-06-06 07:36:54-Cross_validation_component-INFO-Cross validation of all the models has completed
+2025-06-06 07:36:54-Cross_validation_component-INFO-========== Finished Cross Validation Component ==========
 
-2025-05-27 17:58:26-Feature_scaling_component-INFO-========== Starting Feature Scaling Component ==========
-2025-05-27 17:58:26-Feature_scaling_component-INFO-Scaling method selected is "Standard scaling" and scaling has started
-2025-05-27 17:58:26-Feature_scaling_component-INFO-Standard scaler object saved
-2025-05-27 17:58:26-Feature_scaling_component-INFO-X_train and X_test are standard scaled and the trained and test splits are returned
-2025-05-27 17:58:26-Feature_scaling_component-INFO-========== Finished Feature Scaling Component ==========
+2025-06-06 07:36:54-Feature_scaling_component-INFO-========== Starting Feature Scaling Component ==========
+2025-06-06 07:36:54-Feature_scaling_component-INFO-Scaling method selected is "Standard scaling" and scaling has started
+2025-06-06 07:36:54-Feature_scaling_component-INFO-Standard scaler object saved
+2025-06-06 07:36:54-Feature_scaling_component-INFO-X_train and X_test are standard scaled and the trained and test splits are returned
+2025-06-06 07:36:54-Feature_scaling_component-INFO-========== Finished Feature Scaling Component ==========
 
-2025-05-27 17:58:26-Model_training_component-INFO-========== Starting Model Training Component ==========
-2025-05-27 17:58:26-Model_training_component-INFO-Model training started
-2025-05-27 17:58:26-Model_training_component-INFO-Looping through models dictionary and training + evaluating
-2025-05-27 17:58:26-Model_training_component-INFO-Model: LinearRegression Metrics: RMSE: 320.9002708256502, R2: 0.8953106527283475, MAE: 258.8737085497559, MSE:102976.98381597562
-2025-05-27 17:58:26-Model_training_component-INFO-Model: Ridge Metrics: RMSE: 320.9185038659656, R2: 0.8952987558277178, MAE: 258.88599460941117, MSE:102988.68612356979
-2025-05-27 17:58:26-Model_training_component-INFO-Model: Lasso Metrics: RMSE: 320.9197809667837, R2: 0.8952979225051825, MAE: 258.86774398052, MSE:102989.50581576844
-2025-05-27 17:58:26-Model_training_component-INFO-Model: ElasticNet Metrics: RMSE: 453.36115309235504, R2: 0.7910458826007364, MAE: 340.16014577037697, MSE:205536.3351332298
-2025-05-27 17:58:26-Model_training_component-INFO-Model: DecisionTreeRegressor Metrics: RMSE: 320.9682222311891, R2: 0.8952663115911171, MAE: 263.850975, MSE:103020.59968225
-2025-05-27 17:58:26-Model_training_component-INFO-Model: RandomForestRegressor Metrics: RMSE: 234.89100957207634, R2: 0.9439087505930597, MAE: 189.53996000000004, MSE:55173.78637778926
-2025-05-27 17:58:26-Model_training_component-INFO-Model: SVR Metrics: RMSE: 883.6174523656632, R2: 0.20623691995633342, MAE: 659.4665377907593, MSE:780779.8021251851
-2025-05-27 17:58:26-Model_training_component-INFO-Model: KNN Metrics: RMSE: 239.43843803752566, R2: 0.9417159038081268, MAE: 192.311645, MSE:57330.76560985001
-2025-05-27 17:58:26-Model_training_component-INFO-Model: XGboost Metrics: RMSE: 253.94967286197317, R2: 0.9344371777438581, MAE: 207.4112505554199, MSE:64490.43634670319
-2025-05-27 17:58:26-Model_training_component-INFO-Model training has ended and metrics are returned
-2025-05-27 17:58:26-Model_training_component-INFO-========== Finished Model Training Component ==========
+2025-06-06 07:36:54-Model_training_component-INFO-========== Starting Model Training Component ==========
+2025-06-06 07:36:54-Model_training_component-INFO-Model training started
+2025-06-06 07:36:54-Model_training_component-INFO-Looping through models dictionary and training + evaluating
+2025-06-06 07:36:54-Model_training_component-INFO-Model: LinearRegression Metrics: RMSE: 320.9002708256502, R2: 0.8953106527283475, MAE: 258.8737085497559, MSE:102976.98381597562
+2025-06-06 07:36:54-Model_training_component-INFO-Model: Ridge Metrics: RMSE: 320.9185038659656, R2: 0.8952987558277178, MAE: 258.88599460941117, MSE:102988.68612356979
+2025-06-06 07:36:54-Model_training_component-INFO-Model: Lasso Metrics: RMSE: 320.9197809667837, R2: 0.8952979225051825, MAE: 258.86774398052, MSE:102989.50581576844
+2025-06-06 07:36:54-Model_training_component-INFO-Model: ElasticNet Metrics: RMSE: 453.36115309235504, R2: 0.7910458826007364, MAE: 340.16014577037697, MSE:205536.3351332298
+2025-06-06 07:36:54-Model_training_component-INFO-Model: DecisionTreeRegressor Metrics: RMSE: 317.912410090421, R2: 0.8972510747934772, MAE: 262.1387, MSE:101068.30048950002
+2025-06-06 07:36:54-Model_training_component-INFO-Model: RandomForestRegressor Metrics: RMSE: 234.15433455912884, R2: 0.9442600303257266, MAE: 188.73445150000003, MSE:54828.252392828435
+2025-06-06 07:36:54-Model_training_component-INFO-Model: SVR Metrics: RMSE: 883.6174523656632, R2: 0.20623691995633342, MAE: 659.4665377907593, MSE:780779.8021251851
+2025-06-06 07:36:54-Model_training_component-INFO-Model: KNN Metrics: RMSE: 239.43843803752566, R2: 0.9417159038081268, MAE: 192.311645, MSE:57330.76560985001
+2025-06-06 07:36:54-Model_training_component-INFO-Model: XGboost Metrics: RMSE: 253.94967286197317, R2: 0.9344371777438581, MAE: 207.4112505554199, MSE:64490.43634670319
+2025-06-06 07:36:54-Model_training_component-INFO-Model training has ended and metrics are returned
+2025-06-06 07:36:54-Model_training_component-INFO-========== Finished Model Training Component ==========
 
-2025-05-27 17:58:26-Model_configurator_component-INFO-========== Starting Model Configurator Component ==========
-2025-05-27 17:58:26-Model_configurator_component-INFO-Returned the list of dictionaries with models and their corresponding param grids
-2025-05-27 17:58:26-Model_configurator_component-INFO-========== Finished Model Configurator Component ==========
+2025-06-06 07:36:54-Model_configurator_component-INFO-========== Starting Model Configurator Component ==========
+2025-06-06 07:36:54-Model_configurator_component-INFO-Returned the list of dictionaries with models and their corresponding param grids
+2025-06-06 07:36:54-Model_configurator_component-INFO-========== Finished Model Configurator Component ==========
 
-2025-05-27 17:58:26-Hyperparameter_tuning_component-INFO-========== Starting Hyperparameter_tuning_component ==========
-2025-05-27 17:58:26-Hyperparameter_tuning_component-INFO-Hyperparameter tuning started
-2025-05-27 17:58:26-Hyperparameter_tuning_component-INFO-Hypertuning model: RandomForestRegressor
-2025-05-27 18:00:03-Hyperparameter_tuning_component-INFO-Hypertuning model: RandomForestRegressor completed
-2025-05-27 18:00:03-Hyperparameter_tuning_component-INFO-Hypertuning model: KNeighborsRegressor
-2025-05-27 18:00:03-Hyperparameter_tuning_component-INFO-Hypertuning model: KNeighborsRegressor completed
-2025-05-27 18:00:03-Hyperparameter_tuning_component-INFO-Hyperparameter tuning finished
-2025-05-27 18:00:03-Hyperparameter_tuning_component-INFO-========== Finished Hyperparameter_tuning_component ==========
+2025-06-06 07:36:54-Hyperparameter_tuning_component-INFO-========== Starting Hyperparameter_tuning_component ==========
+2025-06-06 07:36:54-Hyperparameter_tuning_component-INFO-Hyperparameter tuning started
+2025-06-06 07:36:54-Hyperparameter_tuning_component-INFO-Hypertuning model: RandomForestRegressor
+2025-06-06 07:38:30-Hyperparameter_tuning_component-INFO-Hypertuning model: RandomForestRegressor completed
+2025-06-06 07:38:31-Hyperparameter_tuning_component-INFO-Hypertuning model: KNeighborsRegressor
+2025-06-06 07:38:31-Hyperparameter_tuning_component-INFO-Hypertuning model: KNeighborsRegressor completed
+2025-06-06 07:38:31-Hyperparameter_tuning_component-INFO-Hyperparameter tuning finished
+2025-06-06 07:38:31-Hyperparameter_tuning_component-INFO-========== Finished Hyperparameter_tuning_component ==========
 
-2025-05-27 18:00:03-Pipeline_component-INFO-Pipeline execution has finished
+2025-06-06 07:38:31-Pipeline_component-INFO-Pipeline execution has finished

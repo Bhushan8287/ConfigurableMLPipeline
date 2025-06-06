@@ -1,7 +1,8 @@
 {
     "splitting": {
         "test_size": 0.2,
-        "random_state": 3
+        "random_state": 3,
+        "splits_save_path": "C:/Users/BW/Desktop/ETL project/ML_project/data"
     },
                  
     "paths": {

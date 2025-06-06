@@ -1,6 +1,7 @@
 from sklearn.model_selection import train_test_split
 from src.config.config_loader import get_config
 from src.utils.logger_code import logger_for_splitting_data, log_component_start, log_component_end
+import os
 
 
 def split_dataset(loaded_datadf):
@@ -31,6 +32,7 @@ def split_dataset(loaded_datadf):
         config = get_config()
         test_size = config['splitting']['test_size']
         random_state = int(config['splitting']['random_state'])
+        splits_save_path = config['splitting']['splits_save_path']
 
         logger_for_splitting_data.info('The dataset is now being split into "X", "y" and "train" and "test" splits')
 
@@ -41,7 +43,14 @@ def split_dataset(loaded_datadf):
         # Perform train-test split
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=random_state)
 
+        # Save splits as CSV
+        X_train.to_csv(os.path.join(splits_save_path, 'X_train.csv'), index=False)
+        X_test.to_csv(os.path.join(splits_save_path, 'X_test.csv'), index=False)
+        y_train.to_csv(os.path.join(splits_save_path, 'y_train.csv'), index=False)
+        y_test.to_csv(os.path.join(splits_save_path, 'y_test.csv'), index=False)
+
         logger_for_splitting_data.info(f'Split shapes X_train: {X_train.shape}, X_test: {X_test.shape}, 'f'y_train: {y_train.shape}, y_test: {y_test.shape}')
+        logger_for_splitting_data.info('Splits saved successfully to CSV files')
         logger_for_splitting_data.info('The dataset has been successfully split into training and testing sets and are returned')
 
         log_component_end(logger_for_splitting_data, 'Splitting Data Component')
