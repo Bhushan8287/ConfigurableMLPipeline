@@ -173,8 +173,9 @@ cd ConfigurableMLPipeline
 ```bash
 pip install -r requirements.txt
 ```
+### 3. Update the paths in the config.json
 
-### 3. Run the Pipeline
+### 4. Run the Pipeline
 
 ```bash
 python main.py
