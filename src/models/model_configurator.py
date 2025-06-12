@@ -97,7 +97,7 @@ def get_selected_model_grids(selected_models_names_list):
 
     This function maps each model name in the input list to its corresponding 
     model object and hyperparameter grid. It is used to dynamically fetch only 
-    the models specified by the user.
+    the models and their hyper-paramters selected by the model training component.
 
     Parameters
     ----------
@@ -111,7 +111,7 @@ def get_selected_model_grids(selected_models_names_list):
     -------
     models_with_paramgrid : list of dict
         A list where each element is a dictionary with:
-        - 'model': instantiated sklearn/xgboost model
+        - 'model': instantiated sklearn/model
         - 'param_grid': dictionary of hyperparameters for that model
 
     Raises
