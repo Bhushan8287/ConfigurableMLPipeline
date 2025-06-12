@@ -1,6 +1,5 @@
 ---
 
-```markdown
 # ConfigurableMLPipeline
 
 ## 📌 Overview  
@@ -165,7 +164,7 @@ Example (Random Forest):
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/ConfigurableMLPipeline.git
+git clone the repo
 cd ConfigurableMLPipeline
 ```
 
@@ -204,7 +203,7 @@ python app.py
 
 ## 📌 Notes
 
-* Built to showcase modular pipeline design with real-world applicability.
+* Built to showcase modular pipeline design.
 * Flask integration is **not** automated — this separation was intentional for flexibility and clarity.
 
 ---
