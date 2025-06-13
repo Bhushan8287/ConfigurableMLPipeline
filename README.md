@@ -122,7 +122,7 @@ Example (Random Forest):
 
 ---
 
-## ⚙️ Configuration File (`config.json`)
+## ⚙️ Configuration File (`config.json`) example.
 ```json
 {
   "splitting": {
