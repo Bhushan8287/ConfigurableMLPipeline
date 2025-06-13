@@ -173,7 +173,7 @@ cd ConfigurableMLPipeline
 ```bash
 pip install -r requirements.txt
 ```
-### 3. Update the paths in the config.json file and then update the path in the config_loader.py component to direct towards the config.json file
+### 3. Update the paths and settings in the config.json file and then update the path in the config_loader.py component to direct towards the config.json file
 
 ### 4. Run the Pipeline
 
