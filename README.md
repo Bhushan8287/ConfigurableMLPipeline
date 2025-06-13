@@ -3,7 +3,7 @@
 # ConfigurableMLPipeline
 
 ## 📌 Overview  
-A modular, configurable, and end-to-end machine learning pipeline for **regression tasks**, designed to automate data ingestion, preprocessing, training, evaluation, and hyperparameter tuning. The pipeline predicts daily revenue of a coffee shop using structured tabular data.  
+A modular, configurable, and end-to-end machine learning pipeline for **regression tasks**, designed to automate data ingestion, preprocessing, training, evaluation, and hyperparameter tuning.   
 > ⚠️ Flask integration is manual — user must manually select a model and update `app.py`.
 
 ---
