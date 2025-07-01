@@ -11,7 +11,8 @@ A modular, configurable, and end-to-end machine learning pipeline for **regressi
 ## 🎯 Key Features
 - Configurable via `config.json`
 - Modular folder and file structure
-- Supports 9 regression models
+- Supports 9 ML regression models
+- Easily extendable to other ML models
 - Cross-validation and hyperparameter tuning
 - Model performance logging and saving
 - Manual Flask app for serving predictions
